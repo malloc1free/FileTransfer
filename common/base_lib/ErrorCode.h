@@ -4,35 +4,33 @@
 
 namespace NErrorCode
 {
-// ¹«¹²Ä£¿é ´íÎóÂë·¶Î§[0 ---100]
+// å…¬å…±æ¨¡å— é”™è¯¯ç èŒƒå›´[0 ---100]
 	enum ECommon
 	{
-		Success = 0,				// µ÷ÓÃ³É¹¦
-
-		InvalidParam = 1,			// ²ÎÊıÎŞĞ§
-		NoMemory = 2,				// new Ê§°Ü£¬Ã»ÄÚ´æÁË
-
-		QueueFull = 3,				// ÏûÏ¢¶ÓÁĞÂúÁË
-		systenCallErr =4,           // ÏµÍ³µ÷ÓÃÊ§°Ü
+		Success = 0,	         // è°ƒç”¨æˆåŠŸ
+		InvalidParam = 1,	 // å‚æ•°æ— æ•ˆ
+		NoMemory = 2,		 // new å¤±è´¥ï¼Œæ²¡å†…å­˜äº†
+		QueueFull = 3,	         // æ¶ˆæ¯é˜Ÿåˆ—æ»¡äº†
+		systenCallErr =4,        // ç³»ç»Ÿè°ƒç”¨å¤±è´¥
     };
 
 
-// ÍøÂçÁ¬½ÓÄ£¿é ´íÎóÂë·¶Î§[121---150]
+// ç½‘ç»œè¿æ¥æ¨¡å— é”™è¯¯ç èŒƒå›´[121---150]
 	enum EConnect
 	{
-		CreateSocketFailed = 121,   // ´´½¨socketÊ§°Ü
-		CloseSocketFailed = 122,    // ¹Ø±ÕsocketÊ§°Ü
-		InValidIp = 123,			// ÎŞĞ§ipµØÖ·
-		BindIpPortFailed = 124,     // ÎŞĞ§ipµØÖ·
-		ListenConnectFailed = 125,  // Æô¶¯¼àÌıÁ¬½ÓÊ§°Ü
-		ConnectIpPortFailed = 126,  // Æô¶¯¼àÌıÁ¬½ÓÊ§°Ü
-		SetLingerFailed = 127,		// Ñ¡ÏîÉèÖÃÊ§°Ü
-		SetRevBuffFailed = 128,     // Ñ¡ÏîÉèÖÃÊ§°Ü
-		SetSndBuffFailed = 129,     // Ñ¡ÏîÉèÖÃÊ§°Ü
-		SetReuseAddrFailed = 130,   // Ñ¡ÏîÉèÖÃÊ§°Ü
-		SetNagleFailed = 131,       // Ñ¡ÏîÉèÖÃÊ§°Ü
-		SetNoBlockFailed =132,		// Ñ¡ÏîÉèÖÃÊ§°Ü
-		AcceptConnectFailed = 133,  // ½¨Á¢Á¬½ÓÊ§°Ü
+		CreateSocketFailed = 121,   // åˆ›å»ºsocketå¤±è´¥
+		CloseSocketFailed = 122,    // å…³é—­socketå¤±è´¥
+		InValidIp = 123,	    // æ— æ•ˆipåœ°å€
+		BindIpPortFailed = 124,     // æ— æ•ˆipåœ°å€
+		ListenConnectFailed = 125,  // å¯åŠ¨ç›‘å¬è¿æ¥å¤±è´¥
+		ConnectIpPortFailed = 126,  // å¯åŠ¨ç›‘å¬è¿æ¥å¤±è´¥
+		SetLingerFailed = 127,	    // é€‰é¡¹è®¾ç½®å¤±è´¥
+		SetRevBuffFailed = 128,     // é€‰é¡¹è®¾ç½®å¤±è´¥
+		SetSndBuffFailed = 129,     // é€‰é¡¹è®¾ç½®å¤±è´¥
+		SetReuseAddrFailed = 130,   // é€‰é¡¹è®¾ç½®å¤±è´¥
+		SetNagleFailed = 131,       // é€‰é¡¹è®¾ç½®å¤±è´¥
+		SetNoBlockFailed =132,	    // é€‰é¡¹è®¾ç½®å¤±è´¥
+		AcceptConnectFailed = 133,  // å»ºç«‹è¿æ¥å¤±è´¥
 	};
 }
 #endif // !ERROR_CODE_H
