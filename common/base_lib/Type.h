@@ -1,7 +1,7 @@
 #pragma once
 /* auther : gaogao
 *  date : 2019.01.10
-*  description : 各种类型的定义
+*  description : 鍚勭绫诲瀷瀹氫箟
 */
 
 #include <stdio.h>
@@ -10,6 +10,6 @@
 #define TYPE_H
 
 static const int strIpLen = 32;
-typedef char strIPLen[strIpLen];	// IP类型
+typedef char strIPLen[strIpLen];	// 鏁村瀷
 #endif
 
