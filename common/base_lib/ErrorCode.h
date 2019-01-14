@@ -12,7 +12,7 @@ namespace NErrorCode
 		NoMemory = 2,		    // new 失败，没内存了
 		QueueFull = 3,	            // 消息队列满了
 		systenCallErr =4,           // 系统调用失败
-    };
+        };
 
 
 // 网络连接模块 错误码范围[121---150]
