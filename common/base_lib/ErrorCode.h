@@ -7,11 +7,11 @@ namespace NErrorCode
 // 公共模块 错误码范围[0 ---100]
 	enum ECommon
 	{
-		Success = 0,	         // 调用成功
-		InvalidParam = 1,	 // 参数无效
-		NoMemory = 2,		 // new 失败，没内存了
-		QueueFull = 3,	         // 消息队列满了
-		systenCallErr =4,        // 系统调用失败
+		Success = 0,	            // 调用成功
+		InvalidParam = 1,	    // 参数无效
+		NoMemory = 2,		    // new 失败，没内存了
+		QueueFull = 3,	            // 消息队列满了
+		systenCallErr =4,           // 系统调用失败
     };
 
 
